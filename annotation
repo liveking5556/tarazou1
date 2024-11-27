@@ -1,5 +1,6 @@
 import subprocess
 
+
 def get_git_changes():
     try:
         # 변경 사항을 출력하기 위한 Git 명령어
@@ -9,6 +10,14 @@ def get_git_changes():
             text=True,                     # 텍스트 모드로 출력받기
             capture_output=True            # 표준 출력 및 표준 오류 캡처
         )
+
+#안녕하세요
+
+
+# Parameters for drawing  
+drawing = False  # True if the mouse is pressed
+ix, iy = -1, -1  # Initial x, y coordinates of the region
+>>>>>>> complict_branch
 
         if result.returncode == 0:
             return result.stdout
