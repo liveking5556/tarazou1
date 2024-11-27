@@ -85,5 +85,5 @@ def segment_images_in_folder(folder_path, output_file="annotations.txt"):
 
 # Example usage
 if __name__ == "__main__":
-    folder_path = r"D:\03_Lectures\2024_2nd\Lecture_Materials\SW_Dev\SW_Dev\test_folder\Image_dataset"
+    folder_path = r"C:\Users\cic\Documents\tarazou2\Online_Repo\Image_dataset"
     segment_images_in_folder(folder_path)
